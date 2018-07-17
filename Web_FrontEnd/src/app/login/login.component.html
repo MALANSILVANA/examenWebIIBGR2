@@ -1,0 +1,42 @@
+
+<div class="container">
+  <div class="row">
+    <br><br><br><br>
+  </div>
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <br class="text-center">
+      <h1 class="h3 mb-3 font-weight-normal text-center">Login</h1>
+      <br>
+      <br>
+      <form class="form-signin" #formulario="ngForm" (ngSubmit)="login(formulario)">
+        <div class="form-group">
+          <label for="email" class="sr-only">Correo</label>
+          <input type="email"
+                 class="form-control"
+                 id="email"
+                 placeholder="Correo"
+                 name="email"
+                 aria-describedby="emailHelp" placeholder="Ingrese su correo electrónico" ngModel=""
+                 required>
+        </div>
+
+        <div class="form-group">
+          <label for="password" class="sr-only">Password</label>
+          <input type="password"
+                 class="form-control"
+                 id="password"
+                 placeholder="Password"
+                 name="password"
+                 name="password" placeholder="Password" ngModel=""
+                 required>
+        </div>
+        <button type="submit" class="btn btn-lg btn-primary btn-block">Ingresar</button>
+      </form>
+      <br>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+</div>
+
