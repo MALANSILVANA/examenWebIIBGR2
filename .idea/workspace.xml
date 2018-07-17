@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="928933a3-d4bf-4e7d-83bf-d30bfa079054" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Web_FrontEnd/src/app/libro/libro.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web_FrontEnd/src/app/libro/libro.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_FrontEnd/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web_FrontEnd/src/app/home/home.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Web_FrontEnd/src/app/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="115" selection-start-line="17" selection-start-column="115" selection-end-line="17" selection-end-column="115" />
+            <state relative-caret-position="406">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -49,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="libro.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="libro.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web_FrontEnd/src/app/libro/libro.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -90,11 +90,11 @@
         <option value="$PROJECT_DIR$/Web_BackEnd/src/app.module.ts" />
         <option value="$PROJECT_DIR$/Web_FrontEnd/src/app/login/login.component.html" />
         <option value="$PROJECT_DIR$/Web_FrontEnd/src/app/home/home.component.css" />
-        <option value="$PROJECT_DIR$/Web_FrontEnd/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/Web_FrontEnd/src/app/usuario/usuario.component.html" />
         <option value="$PROJECT_DIR$/Web_FrontEnd/src/app/autor/autor.component.html" />
         <option value="$PROJECT_DIR$/Web_FrontEnd/src/app/user-detail/user-detail.component.html" />
         <option value="$PROJECT_DIR$/Web_FrontEnd/src/app/libro/libro.component.html" />
+        <option value="$PROJECT_DIR$/Web_FrontEnd/src/app/home/home.component.html" />
       </list>
     </option>
   </component>
@@ -147,6 +147,14 @@
               <item name="Web_FrontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="examenWebIIBGR2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examenWebIIBGR2" type="462c0819:PsiDirectoryNode" />
+              <item name="Web_FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="examenWebIIBGR2" type="b2602c69:ProjectViewProjectNode" />
@@ -211,7 +219,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16040000" />
+    <option name="totallyTimeSpent" value="16186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -326,7 +334,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Web_FrontEnd/src/app/usuario/usuario.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177" />
+        <state relative-caret-position="-177">
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Web_FrontEnd/src/app/usuario.service.ts">
@@ -469,7 +481,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Web_FrontEnd/src/app/usuario/usuario.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177" />
+        <state relative-caret-position="-177">
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Web_FrontEnd/src/app/usuario.service.ts">
@@ -542,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web_FrontEnd/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="115" selection-start-line="17" selection-start-column="115" selection-end-line="17" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Web_FrontEnd/src/app/routes/routes.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -576,6 +585,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web_FrontEnd/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
         </state>
       </provider>
     </entry>
